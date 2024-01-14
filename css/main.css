@@ -1,0 +1,394 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: #191919;
+    font-size: 22px;
+    color: #fff;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.nav-button {
+    display: none;
+}
+
+
+/* Header */
+.header {
+    padding-top: 45px;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 33px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 40px;
+    font-size: 17px;
+}
+
+.list-link {
+    color: #FFF;
+}
+
+.list-link.active {
+    color: #118DA8;
+}
+
+.header-main {
+    margin-top: 83px;
+    padding-bottom: 93px;
+    display: flex;
+    column-gap: 60px;
+}
+
+.header-images {
+    position: relative;
+}
+
+.line-1 {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+}
+
+.header-content {
+    margin-top: 294px;
+    position: relative;
+}
+
+.header-heading {
+    
+font-size: 70px;
+max-width: 526px;
+line-height: 88px;
+letter-spacing: 3.2px;
+margin-bottom: 90px;
+}
+
+.header-next {
+    font-size: 75px;
+}
+
+.header-next::after {
+    content: url(../img/header/2.svg);
+    position: absolute;
+    left: -6px;
+}
+.header-level {
+font-size: 80px;
+font-weight: 700;
+}
+
+.header-content p {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.header-social {
+    display: flex;
+    column-gap: 17px;
+}
+
+/* Episodes */
+.episodes {
+
+}
+
+.episodes-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 64px;
+}
+.head-heading {
+    font-size: 64px;
+    letter-spacing: 2.88px;
+}
+
+
+.episodes-button {
+    background-color: #118DA8;
+    padding: 12px 15px 12px 20px;
+    font-size: 18px;
+    color: #FFF;
+    border-radius: 6px;
+    line-height: 27px;
+}
+.episodes-head .episodes-button {
+    font-size: 17px;
+}
+
+.episodes-episode {
+    border-radius: 32px;
+    background: #000;
+    display: flex;
+    column-gap: 53px;
+    padding: 40px;
+}
+.episodes-text1 {
+    border-radius: 6px;
+    background: #191919;
+    font-size: 18px;
+    line-height: 27px; 
+    display: inline-block;
+    padding: 0 16px;
+    margin-bottom: 48px;
+}
+.episodes-text2 {
+    color: #118DA8;
+    font-size: 17px;
+    line-height: 27px; 
+    margin-bottom: 18px;
+}
+.episodes-content-heading {
+
+    font-size: 64px;
+    
+    font-weight: 400;
+    line-height: 70.4px; 
+    letter-spacing: 2.56px;
+    max-width: 701px;
+    margin-bottom: 28px;
+}
+.episodes-text3 {
+    color: rgba(255, 255, 255, 0.70);   
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px; 
+    max-width: 757px;
+    margin-bottom: 30px;
+}
+
+.episodes-episode + .episodes-episode {
+    margin-top: 60px;
+}
+.episodes {
+    margin-bottom: 160px;
+}
+
+/* Guest */
+
+.guest {
+    padding: 100px 0;
+}
+
+.guest-main {
+    display: flex;
+    column-gap: 60px;
+    justify-content: space-between;
+    
+}
+.guest-left-content {
+    margin-top: 148px;
+    padding-bottom: 146px;
+    padding-right: 34px;
+
+}
+.circle-button {
+    border-radius: 400px;
+    background: #118DA8;
+    width: 112px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.guest-text1 {
+    color: #118DA8;
+    font-size: 18px;
+    line-height: 27px; 
+}
+.guest-header {
+ 
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    margin-bottom: 28px;
+}
+
+.guest-text2 {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 33px;
+
+}
+.guest-image  {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+/* Subscribe */ 
+
+.subcribe {
+margin-bottom: 100px;
+}
+
+.subscribe-content {
+    border-radius: 32px;
+background: #000;
+    display: flex;
+    padding: 60px;
+    column-gap: 76px;
+    padding-bottom: 75px;
+}
+.subscribe-text {
+padding-right: 151px;
+        
+}
+.subscribe-text1 {
+    color: #118DA8;
+        font-size: 18px;
+        line-height: 1.5; 
+}
+.subcribe-header {
+
+font-size: 72px;
+
+font-weight: 400;
+line-height: 1.1;
+letter-spacing: 2.88px;
+max-width: 431px;
+}
+
+
+.subscribe-registration .input {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #191919;
+    background: #191919;
+    padding: 26px 245px 26px 19px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    width: 100%;
+
+    line-height: 1.2;  
+}
+
+.subcribe-submit {
+padding: 9px 15px 10px 19px;
+border-radius: 6px;
+background: #118DA8;
+color: rgba(255, 255, 255, 0.70);
+font-size: 15px;
+font-weight: 700;
+line-height: 1.92;
+
+}
+
+.subscribe-lines {
+    position: relative;
+}
+
+.subscribe-lines img {
+    position: absolute;
+    top: -66px;
+    left: -34px;
+}
+
+/* Feedback */
+
+.feedback {
+    padding: 100px 0;
+}
+
+.feedback-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    
+}
+.feedback-comment {
+    padding: 54px 60px 51px 50px;
+    width: 32%;
+    border-radius: 32px;
+    background: #000;
+    
+}
+.feedback-stars {
+}
+.feedback-comment-text {
+   
+
+}
+.feedback-text1 {
+    font-size: 36px;
+
+font-weight: 400;
+line-height: 1.2;
+margin-bottom: 19px;
+    
+}
+.feedback-name {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* Footer */
+
+.footer {
+padding: 100px 0;
+}
+
+.footer-content {
+    display: flex;
+    column-gap: 16px;
+}
+.footer-column1 {
+    max-width: 448px;
+    padding-right: 225px;
+}
+.footer-logo img {
+    margin-bottom: 20px;
+}
+
+.footer-media {
+    display: flex;
+    column-gap: 10px;
+}
+.footer-nav {
+    padding-right: 104px;
+}
+.footer-nav-list a {
+    font-size: 17px;
+    line-height: 1.58;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+.footer-nav-element {
+    margin-bottom: 10px;
+
+}
+
+.footer-social {
+    display: flex;
+    column-gap: 17px;
+}
+
+
+
+
+
+
