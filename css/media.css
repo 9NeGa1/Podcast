@@ -7,7 +7,6 @@
 
     .nav.open .nav-list {
         position: fixed;
-        z-index: 2;
         top:0;
         left: 0;
         bottom: 0;
@@ -18,6 +17,7 @@
         flex-direction: column;
         row-gap: 40px;
         font-size: 34px;
+        z-index: 1;
         
     }
 
@@ -31,9 +31,9 @@
     .nav-button {
         display: block;
         position: fixed;
+        z-index: 1;
         top: 50px;
         right: 50px;
-        z-index: 1;
     }
 
     .header-main {
